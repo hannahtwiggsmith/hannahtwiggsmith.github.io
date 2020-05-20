@@ -29,13 +29,15 @@ a {
 .portrait {
   float: left;
   padding-bottom: 40px;
+  padding-right: 60px;
 }
 
 .bio {
   float:left;
-  width: 400px;
-  padding-left: 60px;
+  width: 220px;
+  padding-bottom: 16px;
   clear: right;
+  margin: 0;
 }
 
 .content {
