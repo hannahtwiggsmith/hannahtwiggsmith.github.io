@@ -15,12 +15,27 @@ a {
 
 .header {
   background: #fff;
+  width: 100%;
   color: #000;
   padding-top: 30px;
   padding-right: 30px;
   padding-bottom: 10px;
   padding-left: 40px;
+  float: left;
+  clear: right;
 
+}
+
+.portrait {
+  float: left;
+  padding-bottom: 40px;
+}
+
+.bio {
+  float:left;
+  width: 400px;
+  padding-left: 60px;
+  clear: right;
 }
 
 .content {
@@ -49,9 +64,9 @@ a {
   font-size: 12px;
   line-height: 24px;
   font-family: 'helvetica', 'arial', 'sans';
-  padding: 20px 20px 20px 30px;
-  width: 250px;
-  height: 350px;
+  padding: 5px 5px 5px 40px;
+  width: 220px;
+  height: 300px;
   float: left;
 }
 
