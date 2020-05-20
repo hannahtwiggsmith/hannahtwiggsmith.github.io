@@ -1,0 +1,4 @@
+example_labware = {
+	plates: ["plate1"],
+	pipettes: ["pipette1", "pipette2"]
+}
