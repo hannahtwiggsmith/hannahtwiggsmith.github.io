@@ -1,0 +1,174 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+
+        <title>Final Project</title> 
+
+        <link href="../style.css" media="screen" rel="stylesheet" type="text/css" />
+
+    </head> 
+    <body>
+        <div style="width:100%">
+        <div class="content">
+            <h2 class="title">Resin Adventures</h2>
+
+            <p> My final project is a sci-fi themed Settlers of Catan board game. I am inspired by this <a href="https://www.thingiverse.com/thing:2525047">magnetic and multicolored</a> Catan-style game I found on thingiverse (shown below). This game is really cool, but I want to make my own that is 1) cast in resin and 2) themed with things I like.</p>
+            <div style="margin: auto"><img style="width:100%" src="pics/catan.jpg"></a></div>
+
+            <h2>Bill of Materials</h2>
+            <p>Here is a list of materials I used for this project, along with prices and sourcing links.</p>
+            <table>
+              <tr>
+                <th>Material</th>
+                <th>Source</th>
+                <th>Price</th>
+              </tr>
+              <tr>
+                <td>Oomoo 25</td>
+                <td><a href="https://www.amazon.com/gp/product/B004BNF3TK/ref=ppx_yo_dt_b_asin_title_o01_s01?ie=UTF8&psc=1">Amazon</a></td>
+                <td>$28.99 per 2.8lbs</td>
+              </tr>
+              <tr>
+                <td>Resin</td>
+                <td><a href="https://www.amazon.com/gp/product/B074R774S6/ref=ppx_yo_dt_b_asin_title_o03_s01?ie=UTF8&psc=1">Amazon</a></td>
+                <td>$44.95 per 32 ounce kit</td>
+              </tr>
+              <tr>
+                <td>XTC-3D 3D Print Coating</td>
+                <td><a href="https://www.amazon.com/gp/product/B00PFXK4JY/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1">Amazon</a></td>
+                <td>$31.24 per 24 ouce kit</td>
+              </tr>
+              <tr>
+                <td>Resin Pigment Dye</td>
+                <td><a href="https://www.amazon.com/gp/product/B07V1DWKVW/ref=ppx_yo_dt_b_asin_title_o01_s02?ie=UTF8&psc=1">Amazon</a></td>
+                <td>$25.99 per 15 color set</td>
+              </tr>
+              <tr>
+                <td>Colored Mica Powders</td>
+                <td><a href="https://www.amazon.com/gp/product/B085C8CMNF/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1">Amazon</a></td>
+                <td>$22.99 per 15 color set</td>
+              </tr>
+              <tr>
+                <td>Magnets</td>
+                <td><a href="https://www.amazon.com/gp/product/B0819JZF66/ref=ppx_yo_dt_b_asin_title_o01_s01?ie=UTF8&psc=1">Amazon</a></td>
+                <td>$11.99 per 300 pieces</td>
+              </tr>
+              <tr>
+                <td>Silicone mixing cups</td>
+                <td><a href="https://www.amazon.com/Coopay-Silicone-Measuring-Handmade-Nonstick/dp/B07T289J2B/ref=pd_yo_rr_psims_2/136-5473892-3054608?_encoding=UTF8&pd_rd_i=B07T289J2B&pd_rd_r=6d429fb4-7e25-4933-b20a-7256bfa46bc6&pd_rd_w=1zwh6&pd_rd_wg=PZ1xt&pf_rd_p=93e0e08e-a359-4b83-8c36-9a937f08616e&pf_rd_r=J48KSKVBWW3FGB4VG7PM&psc=1&refRID=J48KSKVBWW3FGB4VG7PM">Amazon</a></td>
+                <td>$14.99 per 6 pieces</td>
+              </tr>
+              <tr>
+                <td>Small silicone mixing cups</td>
+                <td><a href="https://www.amazon.com/gp/product/B07TKX2LVD/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1">Amazon</a></td>
+                <td>$7.99 per 12 pieces</td>
+              </tr>
+              <tr>
+                <td>Superglue</td>
+                <td>Have it</td>
+                <td>Who knows</td>
+              </tr>
+              <tr>
+                <td>Molding and casting supplies (popsicle sticks, cups, etc)</td>
+                <td>Have it</td>
+                <td>Who knows</td>
+              </tr>
+              <tr>
+                <td>Paper and pens</td>
+                <td>Have it</td>
+                <td>Who knows</td>
+              </tr>
+            </table>
+
+
+            <h3>Design and CAD</h3>
+            <p>I drew my designs on paper first, and then created the 3D models in Rhino. Transforming each model into a mold box was very straightforward as I am only using one-part molds. My final themes for the different tiles/biomes are:</p>
+
+
+            <h4>Tiles</h4>
+            <p>Since the normal Settlers of Catan game is made out of cardboard with plastic game pieces, it can get quite messy as the game is played because the pieced are set at the intersections of the cardboard. I wanted to make sure my game had dedicated places for all the game tokens, ensuring that they would be neatly placed as the game is played.</p>
+
+            <p>To test out my whole process, I decided to make the simplest tile first: The void of space. Making this one would allow my to make sure that the magnet placement and tolerances once coated in XTC-3D were correct. I decided that these pieces, as they are not really necessary for the game, could be completely flat. I want to make little "galaxies" inside of them with the resin, which I can play around with once I have the molds.</p>
+
+            <p>Creating the simple tile in rhino was straightforward. I created and extruded a hexagon, and then used the ArrayPolar command to add other tile features:</p>
+            <img style="width:100%" src="pics/polar.jpg">
+
+            <p>Here, you can see that there are two holes on each hex for magnets (more on that later). I also added semi-circular indentations for the cities and settlements, and chamfered edges for the roads to sit in.</p>
+            <img style="width:100%" src="pics/cad.jpg">
+
+            <p>I added a simple mold box around the tile design:</p>
+            <img style="width:100%" src="pics/simple_mold_box.jpg">
+
+            <h4>Number Tokens, Roads, Settlements, and Cities</h4>
+            <p>The rest of the game pieces besides the tiles are very simple. I will need to make four sets, one for each player, in different colors of resin, but the shapes will remain the same. Here is my mold for the number tokens (which I will also use to test colors):</p>
+            <img style="width:100%" src="pics/token_mold.jpg">
+
+            <p>Cities mold box:</p>
+            <img style="width:100%" src="pics/cities.jpg">
+
+            <p>Settlements mold box:</p>
+            <img style="width:100%" src="pics/settlements.jpg">
+
+            <h3>Creating Silicone Molds</h3>
+            <p>I 3D printed my mold boxes on my Ender 3 in 3D Solutech PLA. I used the adaptive slicing settings in Cura so that I could have a lot of detail where the magnet holes are, but low detail where it wasn't needed (like the bottom and sides of the mold box).</p>
+            <img style="width:100%" src="pics/mold_sliced.jpg">
+
+            <p>The 3D print came out well:</p>
+            <img style="width:100%" src="pics/mold_box.jpg">
+
+            <p>I mixed my Oomoo well--10:13 by weight--and carefully filled the molds:</p>
+            <img style="width:100%" src="pics/oomoo.jpg">
+            <img style="width:100%" src="pics/full_mold.jpg">
+
+            <p>The molds took about six hours to cure:</p>
+            <img style="width:100%" src="pics/hex_mold.jpg">
+            <img style="width:100%" src="pics/token_mold.jpg">
+
+
+            <h3>Resin Casting</h3>
+            <p>I wanted to go with a galaxy color scheme. The four player colors will be purple, blue, green, and pink. After setting up my work area (complete with a fan to blow away the fumes) I did an initial test with some of my mica powders in the token mold:</p>
+            <img style="width:100%" src="pics/workspace.jpg">
+            <img style="width:100%" src="pics/setup.jpg">
+            <img style="width:100%" src="pics/token_color.jpg">
+            <p>Mixing the mica powders was very fun to watch! They swirl around like pearlescent galaxies while you stir them. The photos don't do it justice. I also found that a tiny bit of mica powder goes a very long way. After filling the tokens, I filled my hex mold:</p>
+            <img style="width:100%" src="pics/pour.jpg">
+            <img style="width:100%" src="pics/resin_hex.jpg">
+
+            <p>I had a bit of bubble action in my hex mold. I was able to pop the large bubbles with a toothpick, but most of them went away slowly as it cured.</p>
+
+            <img style="width:100%" src="pics/tokens.jpg">
+            <img style="width:100%" src="pics/blue.jpg">
+            <img style="width:100%" src="pics/hex.jpg">
+
+            <p>I also coated my base molds in XTC-3D. I haven'y been able to cast silicone in them yet to see how that will turn out, but they are definitely smoother with the coating.</p>
+            <img style="width:100%" src="pics/xtc.jpg">
+
+
+            <p>I pulled out my Kaonashi mold from the previous project and put some leftover resin in it. The striations are very clear, so when I was coating my other molds in XTC-3D I also redid the Kaonashi mold. Now, I can make another Kaonashi that will be much smoother.</p>
+            <img style="width:100%" src="pics/kaonashi.jpg">
+            <img style="width:100%" src="pics/kaonashi_smooth.jpg">
+
+
+            <h3>Silicone tools</h3>
+            <p>When I was buying the resin online, I saw some reusable silicone cups in the recommendations list. These turned out to be a really great purchase! Once you're finished mixing, you just let the leftover resin cure in the silicone cup and remove it. Voila, the cup is ready to use again! No more disposable plastic! I also found that the silicone cups were very easy to mix in because they were flexible and completely smooth on the inside, so my mixing stick could easily scrape every part of the cup, unlike the plastic cups I used for mixing plaster and Oomoo which have grooves where bits of unmixed material remains. I liked these again, so I also ordered some little ones to use for mixing colors.</p>
+            <img style="width:100%" src="pics/cups.jpg">
+            <img style="width:100%" src="pics/leftovers.jpg">
+
+            <h3>Adding Magnets</h3>
+            <p>I chose to use two magnets in each side of the hex piece because: 1) I would have a stronger connection between each piece, and 2) I wouldn't have to worry about polarity issues. By making the right magnet always North out and the left always South out, every hex will be able to connect to every other hex.<p>
+            <p>For my first test, I demolded my hex tile when it was still a bit flexible. This allowed me to push in the magnets into the holes with a bit of give. I haven't been able to test how well they stay in the holes, and I may need to superglue them. One other idea is to coat the whole tile in XTC-3D after the magnets are in place, which would give it a smooth surface and hold the magnet in.</p>
+            <img style="width:100%" src="pics/magnets.jpg">
+
+            <h3>Next Steps</h3>
+            <p>I've made some progress, but there's a lot more to do! The next things I have to do include:</p>
+            <ul>
+              <li>Designing game cards in Adobe Illustrator and cutting/plotting on the Silhouette 3 Cameo.</li>
+              <li>Create multiples of the game pieces/player pieces.</li>
+              <li>Model a unique dock token for the seafarers expansion.</li>
+            </ul>
+        </div>
+    </div>
+    </body>
+</html>
