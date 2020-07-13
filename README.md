@@ -1,1 +1,1 @@
-Hannah Twigg-Smith's personal website.
+Website for HCDE 599: Digital Fabrication
