@@ -1,1 +1,1 @@
-Website for HCDE 599: Digital Fabrication
+Website for HCDE 598: Digital Fabrication
